@@ -1,1 +1,38 @@
-/* HEADER */
+/* NOTE GLOBAL */
+html,
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* NOTE HEADER */
+.header__logo img {
+  width: 250px;
+}
+
+.header__nav ul {
+  list-style: none;
+  background-color: black;
+  padding: 15px 0;
+  margin: 5px 0 10px;
+}
+
+.header__nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+.header__nav li {
+  display: inline;
+  margin: 0 10px;
+}
+
+/* NOTE CAROUSEL */
+
+.carousel {
+  background-image: url(../img/slider_1.jpg);
+  height: 550px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
