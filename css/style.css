@@ -4,6 +4,13 @@ body {
   font-family: "Times New Roman", Times, serif;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+.clear {
+  clear: both;
+}
 /* NOTE HEADER */
 .header__logo img {
   width: 250px;
@@ -35,4 +42,40 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+}
+
+/* NOTE PRODUCT */
+/* TODO fix responsive background img with grid / flexbox */
+/* TODO fix with calc 25% - px */
+.products {
+  margin-bottom: 70px;
+}
+.products h2 {
+  text-align: center;
+  font-size: 30px;
+}
+.products__item {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+.products__item img {
+  width: 100%;
+}
+
+.products__item h3 {
+  font-size: 17px;
+}
+
+.products__item button {
+  background-color: red;
+
+  border: 1px solid red;
+  border-radius: 3px;
+
+  color: white;
+
+  padding: 5px 10px;
+  margin-top: 15px;
 }
