@@ -34,6 +34,37 @@ body {
   margin: 0 10px;
 }
 
+/* NOTE INTRO */
+/* TODO chiều cao 2 cột ko bằng nhau */
+/* TODO tự canh chỉnh lại img ? hay vẫn phục thuộc tỉ lệ hình gốc */
+.intro__text {
+  font-style: 20px;
+  margin: 25px 0 40px;
+}
+.intro__text span {
+  color: red;
+  font-weight: bold;
+}
+
+.intro__left,
+.intro__right {
+  float: left;
+  width: 50%;
+}
+
+.intro__item img {
+  width: 100%;
+  display: block;
+  /* img là inline nên default tự add spacing */
+  /* phần trắng thừa ra trong hình là do cắt ko sát */
+}
+.intro__item{
+  padding: 0 15px 25px;
+}
+.intro__smallItem {
+  float: left;
+  width: 50%;
+}
 /* NOTE CAROUSEL */
 
 .carousel {
