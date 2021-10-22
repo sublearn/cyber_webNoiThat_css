@@ -135,12 +135,12 @@ body {
 
   position: absolute;
   top: 15px;
-  left: 340px;
+  left: 300px;
   /* opacity: 0.8; */
   /* opacity sẽ làm mờ chữ theo */
 }
 
-.banner__circle p{
+.banner__circle p {
   margin: 0 0 20px;
 }
 
@@ -152,4 +152,49 @@ body {
 .banner__circle p:nth-child(2) {
   font-size: 80px;
   margin: 0;
+}
+
+/* NOTE SERVICE */
+/* TODO lorem không đều nhau nếu h2 khác nhau */
+.services {
+  margin: 30px 0 10px;
+}
+.services_content {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.services_item {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+.services_item i {
+  font-size: 40px;
+}
+
+.services_item h2 {
+  margin: 10px 0;
+}
+
+.services_item p {
+  margin: 0;
+}
+
+/* NOTE FOOTER */
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer p, .footer h2{
+  margin: 0;
+}
+
+.footer h2{
+  font-size: 30px;
 }
